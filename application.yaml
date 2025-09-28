@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/Idan-rac/nginx-argo-demo.git
     targetRevision: main  # Branch to deploy from
-    path: /manifests # Path to the Kubernetes manifests
+    path: manifests # Path to the Kubernetes manifests
   destination:
     server: https://kubernetes.default.svc
     namespace: my-project # Namespace to deploy the application
